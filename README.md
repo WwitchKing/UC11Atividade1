@@ -11,7 +11,7 @@ Projeto feito em Java, utilizando Banco de Dados e usado para praticar o version
 - Java
 - MySQL
 
-  ## Exemploe de código de conexão
+  ## Exemplo de código de conexão
 
   ```public Connection connectDB(){
         Connection conn = null;
