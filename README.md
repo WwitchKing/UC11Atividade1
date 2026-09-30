@@ -1,30 +1,19 @@
-# Nome do Projeto 
+# 🔨 LeiloesTDS
 
-Leloes TDS - UC11 Atividade 1
+## 📋 Sobre o projeto
 
-## Explicação do Projeto
+O **LeiloesTDS** é um sistema desenvolvido para uma casa de leilões, com o objetivo de auxiliar no gerenciamento dos produtos e vendas.
 
-Projeto feito em Java, utilizando Banco de Dados e usado para praticar o versionamente local e remoto
+O projeto faz parte das atividades do curso **Técnico em Desenvolvimento de Sistemas do SENAC** e foi desenvolvido utilizando Java e banco de dados MySQL.
 
-## Tecnilogias utilizadas
+## 💻 Tecnologias utilizadas
 
-- Java
-- MySQL
+-  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
+-  ![NetBeans IDE](https://img.shields.io/badge/NetBeans_IDE-%231B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white) 
+-  ![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) 
+-  ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) 
+-  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
 
-  ## Exemplo de código de conexão
+## 📌 Status do projeto
 
-  ```public Connection connectDB(){
-        Connection conn = null;
-        
-        try {
-        
-            conn = DriverManager.getConnection("jdbc:mysql://localhost/uc11?user=root&password=");
-            
-        } catch (SQLException erro){
-            JOptionPane.showMessageDialog(null, "Erro ConectaDAO" + erro.getMessage());
-        }
-        return conn;
-    }
-    
-}
-```
+🚧 Projeto desenvolvido para fins acadêmicos.
